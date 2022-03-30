@@ -1,0 +1,52 @@
+{
+  "name": "tinystories",
+  "version": "0.1.0",
+  "description": "The very simple and lightweight way to showcase your design system",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/esm/tinystories.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "rollup": "rollup -c",
+    "example": "cd example && npm install && npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magnusdr/tinystories.git"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "validation",
+    "html",
+    "form",
+    "formdata"
+  ],
+  "author": "magnusdr",
+  "license": "MIT",
+  "sideEffects": false,
+  "bugs": {
+    "url": "https://github.com/magnusdr/tinystories/issues"
+  },
+  "homepage": "https://github.com/magnusdr/tinystories#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.1.3",
+    "@rollup/plugin-typescript": "^8.3.0",
+    "@types/react": "^17.0.38",
+    "rollup": "^2.67.1",
+    "rollup-plugin-css-porter": "^1.0.2",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-terser": "^7.0.2",
+    "typescript": "^4.5.5"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2"
+  },
+  "dependencies": {
+    "@reach/dialog": "^0.16.2",
+    "@reach/disclosure": "^0.16.2"
+  }
+}
